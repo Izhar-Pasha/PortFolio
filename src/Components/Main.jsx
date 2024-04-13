@@ -16,7 +16,7 @@ function Main() {
 
     <>
 
-      <div className=' bg-slate-900 h-screen flex flex-col text-start md:flex md:flex-row '>
+      <div className=' bg-slate-900 h-screen flex flex-col text-start md:flex md:flex-row  '>
 
         <div className=' h-screen w-[100%] flex flex-col gap-8 p-5  md:flex  md:items-center md:justify-center md:gap-10'>
 
@@ -61,7 +61,7 @@ function Main() {
             <div id='skill' >
               <div className='  bg-slate-900 h-[50vh]  w-[100%] flex flex-col items-center justify-center  gap-5 md:h-[50vh] '>
                 <div className=' h-[60px] w-[90%]  flex items-center bg-[rgb(15,23,42,0.98)] text-lg sticky top-[0] scroll-smooth  text-white  font-semibol md:hidden'> SKILL </div>
-                <div className='h-full w-[110%] mt-16 p-10 flex flex-wrap justify-evenly items-center  text-center  md:mt-16 md:w-[100%] md:h-[400px]'>
+                <div className='h-full w-[110%] mt-4 p-10 flex flex-wrap justify-evenly items-center  text-center  md:mt-16 md:w-[100%] md:h-[400px]'>
                   <div className="flex flex-col gap-8">
                     <p className='text-teal-500  bg-teal-900 hover:bg-teal-950 font-semibold  p-1 px-3 text-base cursor-pointer rounded-[32px] ease-in-out'>React Js</p>
                     <p className=' text-teal-500 bg-teal-900 hover:bg-teal-950   font-semibold  p-1 px-3 text-base cursor-pointer rounded-[32px] ease-in-out'>Node Js</p>
@@ -122,13 +122,13 @@ function Main() {
               </div>
 
               <div className='w-full'>
-                <a href="/" alt="/" className='text-white w-[50%] flex items-center gap-1 '>View Full Resume <p><MdOutlineArrowOutward /></p></a>
+                <a href="https://drive.google.com/file/d/1S686ycR382xvbsZWuohj_bcCUE5kD2rS/view?usp=drive_link" alt="/" className='text-white w-[50%] flex items-center gap-1 '>View Full Resume <p><MdOutlineArrowOutward /></p></a>
               </div>
             </div>
 
             {/* Project Section */}
 
-            <div className='h-screen w-[100%] flex flex-col items-center md:flex ' id='project'>
+            <div className='h-auto w-[100%] flex flex-col items-center md:flex ' id='project'>
               <div className=' h-[60px] w-[90%]  flex items-center bg-[rgb(15,23,42,0.98)] text-lg sticky top-[0] scroll-smooth  text-white  font-semibol md:hidden md:gap-20'> PROJECT </div>
               {/* PROJECT 1 */}
               <a href="https://izhar-pasha.github.io/Car-Carnation/" target='blank'>
