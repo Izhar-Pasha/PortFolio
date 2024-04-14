@@ -40,9 +40,9 @@ function Main() {
           </div>
 
           <div className=' flex gap-14  text-slate-400 justify-center '>
-            <a className=' text-3xl cursor-pointer' href='https://www.linkedin.com/in/izharpasha/' target="_blank" rel="noopener noreferrer" ><FaLinkedin /></a>
-            <a className=' text-3xl cursor-pointer' href='https://github.com/Izhar-Pasha' target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-            <a className=' text-3xl cursor-pointer' href='mailto:mdizharpasha07@gmail.com' target="_blank" rel="noopener noreferrer" ><MdEmail /></a>
+            <a className=' text-3xl cursor-pointer' href='https://www.linkedin.com/in/izharpasha/' target="_blank" rel="noopener noreferrer" ><FaLinkedin className="hover:text-white" /></a>
+            <a className=' text-3xl cursor-pointer' href='https://github.com/Izhar-Pasha' target="_blank" rel="noopener noreferrer"><FaGithub className="hover:text-white"  /></a>
+            <a className=' text-3xl cursor-pointer' href='mailto:mdizharpasha07@gmail.com' target="_blank" rel="noopener noreferrer" ><MdEmail className="hover:text-white"  /></a>
           </div>
         </div>
 
@@ -131,7 +131,7 @@ function Main() {
             <div className='h-auto w-[100%] flex flex-col items-center md:flex ' id='project'>
               <div className=' h-[60px] w-[90%]  flex items-center bg-[rgb(15,23,42,0.98)] text-lg sticky top-[0] scroll-smooth  text-white  font-semibol md:hidden md:gap-20'> PROJECT </div>
               {/* PROJECT 1 */}
-              <a href="https://izhar-pasha.github.io/Car-Carnation/" target='blank'>
+              <a href="https://izhar-pasha.github.io/PortFolio/" target='blank'>
                 <div className=' h-auto w-[98%] flex flex-col-reverse items-start gap-5  rounded-lg text-white p-5 hover:bg-[rgb(255,255,255,0.06)] hover:cursor-pointer hover:text-slate-200 md:flex-row md:gap-4'>
                   <div>
                     <img className='h-[80px] w-full object-cover border-[1px] md:h-[100px] ' src={Portfolio} alt="" />
