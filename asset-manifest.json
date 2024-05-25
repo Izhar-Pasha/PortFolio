@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/PortFolio/static/css/main.686134be.css",
-    "main.js": "/PortFolio/static/js/main.7217c949.js",
+    "main.css": "/PortFolio/static/css/main.0908674b.css",
+    "main.js": "/PortFolio/static/js/main.c490fb7d.js",
     "static/js/453.56cc74c4.chunk.js": "/PortFolio/static/js/453.56cc74c4.chunk.js",
     "static/media/Portfolio.png": "/PortFolio/static/media/Portfolio.fd4742fb406f30b99119.png",
     "static/media/Job-Portal.png": "/PortFolio/static/media/Job-Portal.0be9b87ca217a015d4a6.png",
     "static/media/Text-Speaker.jpg": "/PortFolio/static/media/Text-Speaker.939979a54930cc9691d4.jpg",
     "static/media/Google.png": "/PortFolio/static/media/Google.4792514abf40279d0bac.png",
     "index.html": "/PortFolio/index.html",
-    "main.686134be.css.map": "/PortFolio/static/css/main.686134be.css.map",
-    "main.7217c949.js.map": "/PortFolio/static/js/main.7217c949.js.map",
+    "main.0908674b.css.map": "/PortFolio/static/css/main.0908674b.css.map",
+    "main.c490fb7d.js.map": "/PortFolio/static/js/main.c490fb7d.js.map",
     "453.56cc74c4.chunk.js.map": "/PortFolio/static/js/453.56cc74c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.686134be.css",
-    "static/js/main.7217c949.js"
+    "static/css/main.0908674b.css",
+    "static/js/main.c490fb7d.js"
   ]
 }
