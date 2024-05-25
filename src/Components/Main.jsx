@@ -7,6 +7,7 @@ import Portfolio from "../Assets/Portfolio.png";
 import JobPortal from "../Assets/Job-Portal.png";
 import Google from "../Assets/Google.png";
 import Textspeaker from "../Assets/Text-Speaker.jpg";
+import Skills from "./Skills/Skills.jsx";
 
 
 
@@ -18,7 +19,7 @@ function Main() {
 
       <div className=' bg-slate-900 h-screen flex flex-col text-start md:flex md:flex-row  '>
 
-        <div className=' h-screen w-[100%] flex flex-col gap-8 p-5  md:flex  md:items-center md:justify-center md:gap-10'>
+        <div className=' w-[100%] flex flex-col gap-8 p-5  md:flex  md:items-center md:justify-center md:gap-10 '>
 
           <div className='flex justify-center  items-start p-5 gap-1 md:flex md:items-start md:justify-center  flex-col md:ms-52'>
             <h1 className=' text-5xl  md:text-7xl text-slate-300 font-semibold text-start'>Izhar Pasha</h1>
@@ -41,12 +42,12 @@ function Main() {
 
           <div className=' flex gap-14  text-slate-400 justify-center '>
             <a className=' text-3xl cursor-pointer' href='https://www.linkedin.com/in/izharpasha/' target="_blank" rel="noopener noreferrer" ><FaLinkedin className="hover:text-white" /></a>
-            <a className=' text-3xl cursor-pointer' href='https://github.com/Izhar-Pasha' target="_blank" rel="noopener noreferrer"><FaGithub className="hover:text-white"  /></a>
-            <a className=' text-3xl cursor-pointer' href='mailto:mdizharpasha07@gmail.com' target="_blank" rel="noopener noreferrer" ><MdEmail className="hover:text-white"  /></a>
+            <a className=' text-3xl cursor-pointer' href='https://github.com/Izhar-Pasha' target="_blank" rel="noopener noreferrer"><FaGithub className="hover:text-white" /></a>
+            <a className=' text-3xl cursor-pointer' href='mailto:mdizharpasha07@gmail.com' target="_blank" rel="noopener noreferrer" ><MdEmail className="hover:text-white" /></a>
           </div>
         </div>
 
-        <div className='h-screen  md:h-screen w-[100%] flex items-center justify-center flex-col '>
+        <div className='h-screen  md:h-screen w-[100%] flex items-center justify-center flex-col overflow-hidden'>
           <div className='overflow-y-scroll overflow-hidden w-[100%] md:overflow-y-scroll scroll-smooth' >
 
             {/* About Section */}
@@ -61,30 +62,7 @@ function Main() {
             <div id='skill' >
               <div className='  bg-slate-900 h-[50vh]  w-[100%] flex flex-col items-center justify-center  gap-5 md:h-[50vh] '>
                 <div className=' h-[60px] w-[90%]  flex items-center bg-[rgb(15,23,42,0.98)] text-lg sticky top-[0] scroll-smooth  text-white  font-semibol md:hidden'> SKILL </div>
-                <div className='h-full w-[110%] mt-4 p-10 flex flex-wrap justify-evenly items-center  text-center  md:mt-16 md:w-[100%] md:h-[400px]'>
-                  <div className="flex flex-col gap-8">
-                    <p className='text-teal-500  bg-teal-900 hover:bg-teal-950 font-semibold  p-1 px-3 text-base cursor-pointer rounded-[32px] ease-in-out'>React Js</p>
-                    <p className=' text-teal-500 bg-teal-900 hover:bg-teal-950   font-semibold  p-1 px-3 text-base cursor-pointer rounded-[32px] ease-in-out'>Node Js</p>
-                    <p className=' text-teal-500 bg-teal-900 hover:bg-teal-950   font-semibold  p-1 px-3 text-base cursor-pointer rounded-[32px] ease-in-out'>Tailwind CSS</p>
-                    <p className=' text-teal-500 bg-teal-900 hover:bg-teal-950   font-semibold  p-1 px-3 text-base cursor-pointer rounded-[32px] ease-in-out'>RestFull API</p>
-                    <p className=' text-teal-500 bg-teal-900 hover:bg-teal-950   font-semibold  p-1 px-3 text-base cursor-pointer rounded-[32px] ease-in-out'>PostMan</p>
-                    <p className=' text-teal-500 bg-teal-900 hover:bg-teal-950   font-semibold  p-1 px-3 text-base cursor-pointer rounded-[32px] ease-in-out'>JavaScript</p>
-                  </div>
-                  <div className="flex flex-col gap-8">
-                    <p className=' text-teal-500 bg-teal-900 hover:bg-teal-950   font-semibold  p-1 px-3 text-base cursor-pointer rounded-[32px] ease-in-out'>Python</p>
-                    <p className=' text-teal-500 bg-teal-900 hover:bg-teal-950   font-semibold  p-1 px-3 text-base cursor-pointer rounded-[32px] ease-in-out'>HTML & CSS</p>
-                    <p className=' text-teal-500 bg-teal-900 hover:bg-teal-950   font-semibold  p-1 px-3 text-base cursor-pointer rounded-[32px] ease-in-out'>SASS</p>
-                    <p className=' text-teal-500 bg-teal-900 hover:bg-teal-950   font-semibold  p-1 px-3 text-base cursor-pointer rounded-[32px] ease-in-out'>BootStrap</p>
-                    <p className=' text-teal-500 bg-teal-900 hover:bg-teal-950   font-semibold  p-1 px-3 text-base cursor-pointer rounded-[32px] ease-in-out'>React-BootStrap</p>
-                    <p className=' text-teal-500 bg-teal-900 hover:bg-teal-950   font-semibold  p-1 px-3 text-base cursor-pointer rounded-[32px] ease-in-out'>Mongo DB</p>
-                  </div>
-                  <div className="flex flex-col gap-8">
-                    <p className=' text-teal-500 bg-teal-900 hover:bg-teal-950   font-semibold  p-1 px-3 text-base cursor-pointer rounded-[32px] ease-in-out'>FireBase</p>
-                    <p className=' text-teal-500 bg-teal-900 hover:bg-teal-950   font-semibold  p-1 px-3 text-base cursor-pointer rounded-[32px] ease-in-out'>Express Js</p>
-                    <p className=' text-teal-500 bg-teal-900 hover:bg-teal-950   font-semibold  p-1 px-3 text-base cursor-pointer rounded-[32px] ease-in-out'>Git</p>
-                    <p className=' text-teal-500 bg-teal-900 hover:bg-teal-950   font-semibold  p-1 px-3 text-base cursor-pointer rounded-[32px] ease-in-out'>GitHub</p>
-                  </div>
-                </div>
+                <Skills />
               </div>
             </div>
 
